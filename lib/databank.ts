@@ -7,6 +7,7 @@ export type Category =
   | "locations"
   | "organizations"
   | "species"
+  | "vehicles"
 
 export type CategoryMeta = {
   key: Category
@@ -44,6 +45,11 @@ export const CATEGORIES: CategoryMeta[] = [
     key: "species",
     label: "Species",
     blurb: "The countless intelligent species of the galaxy.",
+  },
+  {
+    key: "vehicles",
+    label: "Vehicles",
+    blurb: "Starships, speeders and war machines.",
   },
 ]
 
