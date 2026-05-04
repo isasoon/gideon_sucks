@@ -10,6 +10,7 @@ const CATEGORY_TOTALS: Record<string, number> = {
   locations: 326,
   organizations: 135,
   species: 82,
+  vehicles: 267, // <-- ADD THIS
 }
 
 export function Hero() {
